@@ -1,28 +1,13 @@
-<!-- <h3>Satellite Counts:</h3>
-<div class="counts" *ngIf="{sd: countByType('Space Debris'), cm: countByType('Communication'), pr: countByType('Probe'), po: countByType('Positioning'), ss: countByType('Space Station'), te: countByType('Telescope')} as count">
-	<div>Total: <span class="counts-total">{{count.sd + count.cm + count.pr + count.po + count.ss + count.te}}</span></div>
-	<div>Space Debris: <span class="counts-total">{{count.sd}}</span></div>
-	<div>Communication: <span class="counts-total">{{count.cm}}</span></div>
-	<div>Probe: <span class="counts-total">{{count.pr}}</span></div>
-	<div>Positioning: <span class="counts-total">{{count.po}}</span></div>
-	<div>Space Station: <span class="counts-total">{{count.ss}}</span></div>
-	<div>Telescope: <span class="counts-total">{{count.te}}</span></div>
-</div> -->
 
-<!-- <div class="counts">
-	<div>Total: <span class="counts-total">{{countTotal()}}</span></div>
-</div> -->
-
-<!-- TODO 4: add logic to count number of satellites displayed -->
 <h3>Satellite Count:</h3>
 <div class = "counts">
 <!-- <div Total: = <span class="Count-total"{{count.length}}</span></div> -->
 <div>Total: <span class="counts-total">{{satellites.length}}</span></div>
 </div>
-
+<!-- 
 <div class="counts" *ngIf="condition; else #id">
 
 </div>
 <div #id>
 
-</div>
+</div> -->
